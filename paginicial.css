@@ -1,0 +1,63 @@
+body {
+  max-width: 700px;
+  background-color: black;
+  /*substituir por img*/
+  font-family: 'Pixelify Sans', 'Sans-Serif';
+  text-align: center;
+}
+p, a {
+  color: white;
+  font-size: 20px;
+  width: 90%;
+  margin: auto;
+}
+h2 {
+  color: #FFED8F;
+  letter-spacing: 3px;
+}
+header {
+  text-align: center;
+  background-color: black;
+  /*dps substituir por uma imagem*/
+  border: 3px solid navy;
+  border-radius: 20px;
+  border-top: none;
+}
+h1, header a {
+  font-size: 50px;
+  margin-top: 20px;
+  color: #fff;
+  text-shadow:
+    0 0 20px #fff,
+    0 0 42px #fff, 
+    0 0 32px #fff;
+}
+header p {
+  font-size: 20px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: navy;
+  margin-bottom: 20px;
+}
+button {
+  border-radius: 5px;
+  border: none;
+  font-family: 'Pixelify Sans', 'Sans-Serif';
+  color: #FFED8F;
+  background-image: linear-gradient(to bottom, navy, purple);
+  margin-top: 10px;
+  padding: 5px;
+}
+.bemvindo {
+  border: 3px solid #72FF66;
+  border-radius: 20px;
+  background-color: rgba(8, 0, 108, 0.5);
+}
+.tutorial {
+  border: 3px solid #72FF66;
+  border-radius: 20px;
+  background-color: rgba(8, 0, 108, 0.5);
+}
+footer {
+  
+}
