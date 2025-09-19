@@ -46,7 +46,8 @@ button {
   color: #FFED8F;
   background-image: linear-gradient(to bottom, navy, purple);
   margin-top: 10px;
-  padding: 20px;
+  padding: 35px;
+  font-size: 15px;
 }
 .botoes {
   display: flex-wrap;
