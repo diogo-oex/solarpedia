@@ -46,7 +46,17 @@ button {
   color: #FFED8F;
   background-image: linear-gradient(to bottom, navy, purple);
   margin-top: 10px;
-  padding: 10px;
+  padding: 20px;
+}
+nav {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.botoes {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
 }
 .bemvindo {
   border: 3px solid #72FF66;
