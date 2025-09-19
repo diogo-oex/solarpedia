@@ -48,13 +48,8 @@ button {
   margin-top: 10px;
   padding: 20px;
 }
-nav {
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-}
 .botoes {
-  display: flex;
+  display: flex-wrap;
   gap: 5px;
   justify-content: center;
 }
