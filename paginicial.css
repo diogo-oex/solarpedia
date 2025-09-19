@@ -1,5 +1,6 @@
 body {
   max-width: 420px;
+  width:100%;
   background-color: black;
   /*substituir por img*/
   font-family: 'Pixelify Sans', 'Sans-Serif';
