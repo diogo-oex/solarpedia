@@ -1,56 +1,59 @@
-
 <!DOCTYPE html>
 
-<html>
+<html lang="pt-br">
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="paginicial.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Pixelify Sans' rel='stylesheet'>
-  <title>home</title>
+  <title>Bem vindo astronauta!</title>
 </head>
 <body>
   <header>
     <h1><a>SOLARPEDIA</a></h1>
-    <!--Hiperlink que leva para "sobre nós"-->
-    <p>o site perfeito para astronautas mirins</p>
+    <p>o site perfeito para astronautas mirins!</p>
   </header>
-  <nav>
-    <div class="botoes">
+  <nav class="pag">
     <button class="open">home</button>
-    <button class="close">sistemas</button>
-    <button class="close">bibliografia</button>
-<a href= "config.html">
-    <button class="close">configurações</button>
-  </a>
-
-  <!--isso daqui é pra aumentar e diminuir fonte-->
-    <button class="aumentar">+</button>
-    <button class="diminui">-</button>
-  </div>
+    <a class="close">sistemas</a>
+    <a class="close">bibliografia</a>
+    <a class="close">configurações</a>
   </nav>
   
+  <!--isso daqui é pra aumentar e diminuir fonte-->
+  <section class="confi">
+  <div class="botoes">
+    <button class="aumentar" id="mais">+</button>
+    <button class="diminui" id="menos">-</button>
+  </div>
+    <p>clique nos botões para aumentar ou diminuir o texto</p>
+  </section>
+  
   <main>
-    <section class="introdução">
-      <h2>Bem-vindo(a) astronauta!</h2>
-      <div class="bemvindo">
-        <p>Seja bem vindo, astronauta! Preparado para embarcar em uma viagem científica pelo espaço no interplanetário Solarpedia? Então não se esqueça de colocar sua roupa espacial e vamos nessa!</p>
+    <section class="introducao">
+      <h2>Bem-vindo astronauta!</h2>
+      <div class="conteu">
+        <p id="texto">
+          Seja bem vindo, astronauta! Preparado para embarcar em uma 
+          viagem científica pelo espaço no interplanetário Solarpedia? 
+          Então não se esqueça 
+          de colocar sua roupa espacial e vamos nessa!
+        </p>
       </div>
     </section>
     
     <section class="ajuda">
       <h2>Tutorial</h2>
-      <div class="tutorial"></div>
+      <div class="conteu"></div>
     </section>
   </main>
   
   <footer>
-    <p>Obrigado por visitar nosso site :)</p>
-    <nav>
+    <p>direitos reservados a equipe do SOLARPEDIA</p>
+    <p>Obrigado por visitar nosso site, astronauta :)</p>
+    <nav class="extra">
       <a>mapa do site</a>
       <a>Q&A</a>
     </nav>
   </footer>
-  <audio id="musica" src="gasgasgas.mp3"></audio>
-<script src="config.js"></script>
 </body>
 </html>
