@@ -158,7 +158,6 @@ nav .close{
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 50px;
-  word-break:break-word;
 }
 
 .externo a{
@@ -166,6 +165,7 @@ nav .close{
   color: white;
   font-size: 20px;
   font-family: "Pixelify sans", sans-serif;
+  word-break:break-word;
 }
 
 .externo a:hover{
