@@ -53,6 +53,9 @@ header p{
   flex-wrap: wrap;
   gap: 10px;
 }
+.pag a{
+  text-decoration: none;
+}
 
 nav .open{
   font-family: "Pixelify sans", sans serif;
@@ -155,6 +158,7 @@ nav .close{
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 50px;
+  word-break:break-word;
 }
 
 .externo a{
