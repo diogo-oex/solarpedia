@@ -53,6 +53,9 @@ header p{
   flex-wrap: wrap;
   gap: 10px;
 }
+.pag a{
+  text-decoration: none;
+}
 
 nav .open{
   font-family: "Pixelify sans", sans serif;
