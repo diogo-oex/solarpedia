@@ -183,6 +183,8 @@ nav .close{
   border-width: 6px;
   border-style: solid;
   border-radius: 13px;
+  color: white;
+  text-decoration: none;
 }
 
 .explicacao{
