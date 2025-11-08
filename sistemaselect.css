@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+  background-image:url('starback.jpg');   
+}
+
+header{
+  padding: 15px;
+  background-image: url('sistema.jpg');
+  background-size: 100% 10rem;
+  width: 90%;
+  height: 10rem;
+  border-radius:0 0 30px 30px ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border-width: 0 6px 6px 6px;
+  border-color: #1818b7;
+  border-style: solid;
+  text-align: center;
+}
+
+header h1{
+  font-family: "Press start 2p", sans serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 5px white,  0 0 10px white;
+}
+
+.sobre{
+  color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre h2{
+  font-family: "Press start 2P";
+  font-size: 16px;
+  text-align: center;
+  color: #ffed8f;
+}
+
+.psobre{
+  text-align: center;
+  font-family: sans serif;
+  margin-top: 15px;
+  height: max-height;
+  width: 90%;
+  padding: 30px;
+  background-color: rgba(80, 44, 151, 0.6);
+  border-color: rgba(115, 255, 102, 0.6);
+  border-width: 6px;
+  border-style:solid;
+  border-radius: 15px;
+}
+
+.objetos{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.objetos h2{
+  font-family: "Press start 2P";
+  font-size: 16px;
+   color: #ffed8f;
+  margin-bottom: 10px;
+}
+
+.caixote{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.caixa{
+  padding: 1rem;
+  text-align: center;
+  font-family: "Pixelify sans";
+  color: white;
+  font-size: 12px;
+  margin-bottom: 15px;
+  background-color: rgba(7, 0, 108, 0.6);
+  height: 120px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-color: #8c52ff;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 13px;
+}
+
+.box{
+  margin-top: 30px;
+  font-family: "Press start 2P";
+  font-size: 10px;
+  color: white;
+  background: linear-gradient(180deg, #260bc2, #743c82);
+  height: 50px;
+  width: 100px;
+  border-radius: 70px;
+  border: 4px #141268 solid;
+}
+
+.box:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+.box a{
+  color: white;
+  text-decoration: none;
+}
+
+footer{
+  padding: 10px;
+  margin-top: 80px;
+  width: 100%;
+  height: 200px;
+  background-color: #690d71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: white;
+  font-family: sans serify;
+}
+
+.extra{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-family: "Pixelify sans";
+}
+
+.extra a{
+  text-decoration: none;
+  color: white;
+}
+
+.extra a:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+}
