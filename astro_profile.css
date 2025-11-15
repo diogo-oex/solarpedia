@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url('starback.jpg');
+}
+
+header{
+  width: 90%;
+  height: 60px;
+  color: white;
+  font-family: "Press start 2p";
+  font-size: 8px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 12px;
+}
+
+.foto{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.foto h1{
+  color:#ffed8f;
+  font-family: "Press start 2p";
+  font-size: 24px;
+  text-shadow: 0 0 10px #ffed8f;
+}
+
+.foto img{
+ border-width: 3px;
+  border-style: solid;
+  border-color:  #0d01ff;
+}
+
+.foto figure{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items:center; 
+  row-gap: 8px;
+  font-family: sans-serif;
+}
+
+.sobre{
+  margin-top: 60px;
+  padding: 25px 18px 20px 18px;
+  width: 90%;
+  height: max-height;
+  background-color: rgba(8, 0, 108, 0.6);
+  border-color: rgba(115, 255, 102, 0.6);
+  border-width: 6px;
+  border-style:solid;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.resumo{
+  color:white;
+  font-family: sans-serify;
+  text-indent: 25px;
+}
+
+.tabelainfo{
+  display: flex;
+  justify-content: center;
+}
+
+table{
+  background: transparent;
+  text-align: center;
+  height: max-height;
+}
+
+thead{
+  height: 50px;
+  font-family: "Press start 2p";
+  font-size: 15px;
+  color: white;
+}
+
+tbody{
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+
+td{
+  width: 90%;
+  font-family: sans serify;
+  color:white;
+  background: #380077;
+  padding: 10px;
+  border: 4px #5F00CC solid;
+}
+
+.detalhes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+}
+
+.box{
+  border: #ffed8f 4px solid;
+  background: linear-gradient(180deg, #1a1055, #743c82);
+  width: 90%;
+  height: max-height;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.box summary{
+  color: white;
+  font-family: "Press start 2p";
+  font-size:12px;
+}
+
+.box summary::marker{
+  content: "★ ";
+}
+
+.box p{
+  text-align: center;
+  color: white;
+  font-family: sans serify;
+  margin-top: 16px;
+}
+
+.vol{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.voltar{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Press start 2P";
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(180deg, #260bc2, #743c82);
+  height: 50px;
+  width: 100px;
+  border-radius: 70px;
+  border: 4px #141268 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voltar:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+footer{
+  padding: 10px;
+  margin-top: 80px;
+  width: 100%;
+  height: 200px;
+  background-color: #690d71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: white;
+  font-family: sans serify;
+}
+
+.extra{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-family: "Pixelify sans";
+}
+
+.extra a{
+  text-decoration: none;
+  color: white;
+}
+
+.extra a:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
