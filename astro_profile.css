@@ -135,6 +135,7 @@ table{
   background: transparent;
   text-align: center;
   height: max-height;
+  padding: 45px;
 }
 
 thead{
@@ -155,7 +156,7 @@ td{
   font-family: sans serify;
   color:white;
   background: #380077;
-  padding: 10px;
+  padding: 25px;
   border: 4px #5F00CC solid;
 }
 
