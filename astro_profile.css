@@ -105,8 +105,8 @@ main{
 }
 
 .sobre{
-  margin-top: 60px;
-  padding: 25px 18px 20px 18px;
+  margin-top: 50px;
+  padding: 20px 18px 20px 18px;
   width: 90%;
   height: max-height;
   background-color: rgba(8, 0, 108, 0.6);
@@ -129,6 +129,7 @@ main{
 .tabelainfo{
   display: flex;
   justify-content: center;
+  
 }
 
 table{
@@ -258,5 +259,4 @@ footer{
   text-decoration: underline;
   text-transform: uppercase;
   font-style: italic;
-}
-
+  }
