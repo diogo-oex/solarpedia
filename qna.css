@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url('starback.jpg');
+}
+
+header{
+  padding: 15px;
+  background-size: 100% 10rem;
+  width: 90%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  font-family: "Press start 2p", sans serif;
+  font-size: 12px;
+  color: white;
+  text-shadow: 0 0 5px white;
+  text-align: center;
+}
+
+.confi{
+  margin: 60px 0 60px 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-family: sans serif;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.botoes button{
+  font-size: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.botoes button:hover{
+  transition: 0.5s;
+  transform: scale(1.3) rotate(360deg);
+}
+
+.aumentar{
+  background: linear-gradient(180deg, lightgreen, greenyellow);
+  border: 4px solid #ecffa8;
+}
+
+.diminui{
+  background: linear-gradient(180deg, #ff8c8c, red);
+  border: 4px solid #850101;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+.texto{
+  text-align: center;
+  font-family: sans serif;
+  margin-top: 15px;
+  height: max-height;
+  width: 90%;
+  padding: 30px;
+  background-color: rgba(8, 0, 108, 0.6);
+  border-color: rgba(115, 255, 102, 0.6);
+  border-width: 6px;
+  border-style:solid;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.preencha{
+  text-align: center;
+  font-family: sans serif;
+  margin-top: 15px;
+  height: max-height;
+  width: 90%;
+  padding: 30px;
+  background: rgba(46, 0, 93, 0.6);
+  border-color:rgba(26, 0, 130, 0.6); 
+  border-width: 6px;
+  border-style:solid; 
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  row-gap:15px; 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  row-gap:15px; 
+  align-items: center;
+}
+
+input[type="text"]{
+  width: 80%;
+  height: 50px;
+  border-radius: 50px;
+  padding: 5px;
+  border: none;
+  outline-color: #FF60CC;
+}
+
+input[type="radio"]{
+  accent-color: #FF60CC;
+}
+
+textarea{
+  outline-color: #FF60CC;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+input[type="submit"]{
+  background: linear-gradient(180deg, #FF88D9, #B348DE);
+  color: lightyellow;
+  width: 80px;
+  height: 50px;
+  font-weight: bold;
+  font-family: sans serif;
+  border-radius: 70px;
+  border-color: #F0CBFF;
+  border-style: solid;
+  border-width:4px;
+}
+
+input[type="reset"]{
+  background: linear-gradient(180deg, #3F0195, #8700C6);
+  color: lightyellow;
+  width: 80px;
+  height: 50px;
+  font-weight: bold;
+  font-family: sans serif;
+  border-radius: 70px;
+  border-color: #F0CBFF;
+  border-style: solid;
+  border-width:4px;
+}
+
+.perguntas{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 15px;
+}
+
+.perguntas h2{
+  font-family: "Press start 2P";
+  font-size: 16px;
+  text-align: center;
+  color: #ffed8f;
+  text-shadow: 0 0 5px #ffed8f;
+}
+
+.pergunta{
+  background: rgba(81, 0, 108, 0.6);
+  border: #1A0040 solid 4px;
+  width: 90%;
+  padding: 15px;
+  height: max-height;
+  color: white;
+  font-family: sans serif;
+}
+
+.nome{
+  font-family: "Press start 2p";
+  font-style: italic;
+  background: linear-gradient(180deg, white, lightblue);
+  background-clip: text;
+  color: transparent;
+}
+
+details{
+  margin-top:15px; 
+  border: darkblue 4px solid;
+  background: #1a1055;
+  width: 90%;
+  height: max-height;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans serif;
+}
+
+summary::marker{
+  content: "★";
+}
+
+details p{
+  margin-top: 15px;
+}
+
+.vol{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.voltar{
+  margin-top: 30px;
+  margin-left: 20px;
+  font-family: "Press start 2P";
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+  background: linear-gradient(180deg, #260bc2, #743c82);
+  height: 50px;
+  width: 100px;
+  border-radius: 70px;
+  border: 4px #141268 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voltar:hover{
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+footer{
+  height: 100px;
+  display: flex;
+  align-items:center;
+  color: white;
+}

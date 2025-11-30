@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="qna.css">
+  <title>Dúvidas</title>
+</head>
+<body>
+  <header>
+    <h1>planeta das dúvidas</h1>
+  </header>
+  
+  <section class="confi">
+  <div class="botoes">
+    <button class="aumentar" id="mais">+</button>
+    <button class="diminui" id="menos">-</button>
+  </div>
+    <p>clique nos botões para aumentar ou diminuir o texto</p>
+  </section>
+  
+  <main>
+    <section class="texto">
+      <p>Tem alguma dúvida sobre nosso projeto? Nos mande uma mensagem! Nós responderemos
+        sua pergunta e, caso queira, adicionaremos ela aqui no site para ajudar outros astrounautas
+        com dúvidas semelhantes.
+      </p>
+    </section>
+    
+    <section class="preencha">
+      <p>preencha com calma antes de enviar</p>
+      <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" required placeholder="digite seu nome">
+        <label>Você gostaria que sua pergunta fosse colocada aqui?</label>
+        <div class="permissao">
+          <label>sim</label>
+          <input type="radio" value="yes" name="p">
+          <label>não</label>
+          <input type="radio" value="no" name="p">
+        </div>
+        <label for="coment">Comentários</label>
+        <textarea name="coment" rows="8" cols="30" required placeholder="digite aqui sua pergunta"></textarea>
+        <div class="botoes">
+        <input type="submit">
+        <input type="reset">
+        </div>
+        </form>
+    </section>
+    
+    <section class="perguntas">
+      <h2>Outros astronautas tambem perguntaram</h2>
+      <div class="pergunta">
+        <p class="nome">Astronauta 6</p>
+        <p class="per">por que vocês fizeram o solarpedia?</p>
+        <details>
+          <summary>ver resposta</summary>
+          <p>fizemos o Solarpedia, porque queriamos um site divertido, mas ao mesmo tempo educativo</p>
+        </details>
+      </div>
+    </section>
+    
+    <div class="vol">
+    <a href="index.html" class="voltar">voltar</a>
+    </div>
+    </main>
+  <footer>
+    <p>obrigado por visitar o site :)</p>
+  </footer>
+</body>
+</html>
