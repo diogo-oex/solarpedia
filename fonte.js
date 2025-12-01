@@ -1,4 +1,3 @@
-<script>
 let tamanhoSalvo = localStorage.getItem("tamanhoFonte");
 
 if (tamanhoSalvo) {
@@ -32,4 +31,3 @@ if (btnMenos) {
     }
   });
 }
-</script>
