@@ -3,45 +3,43 @@
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Hello, World!</title>
+  <title>Configurações</title>
+  <link rel="stylesheet" href="config.css">
 </head>
 <body>
   <header>
     <h1>Painel de Configurações</h1>
   </header>
-  <nav class="botoes">
-      <a href="index.html">
-        home
-      </a>
-      <a href="">
-      <button class="close">sistemas</button>
-      </a>
-      <a href="">
-      <button class="close">bibliografia</button>
-      </a>
-      <a href="">
-      <button class="open">configurações</button>
-      </a>
-      <!-- aumentar e dimuir fonte -->
-      <button class="aumentar" id="mais">+</button>
-      <button class="diminuir" id="menos">-</button>
+  <nav class="pag">
+    <a class="close" href="index.html">home</a>
+    <a class="close" href="sistema_panel.html">sistemas</a>
+    <a class="close" href="bibliografia.html">bibliografia</a>
+    <a class="open">configurações</a>
   </nav>
+  
+    <section class="confi">
+  <div class="botoes">
+    <button class="aumentar" id="mais">+</button>
+    <button class="diminui" id="menos">-</button>
+  </div>
+    <p>clique nos botões para aumentar ou diminuir o texto</p>
+  </section>
   <main>
-    <section>
-      <label class="titulo">temas</label>
+    <section id="tema">
+      <label class="titulo">Temas</label>
       <select class="tema">
         <option class="1" id="1">Tema 1</option>
         <option class="2" id="2">Tema 2</option>
         <option class="3" id="3">Tema 3</option>
       </select>
-      <section>
+      <section id="musica">
         <span class="titulo">Música</span>
         <div class="botoes1">
           <button class="sim" id="simM">sim</button>
           <button class="nao" id="naoM">não</button>
         </div>
       </section>
-      <section>
+      <section id="sons">
         <span class="titulo">Efeitos Sonoros</span>
         <div class="botoes2">
         <button class="sim" id="simE">sim</button>
