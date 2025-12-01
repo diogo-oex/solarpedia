@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-image: url('starback.jpg');
+}
+
+header{
+  padding: 15px;
+  background-image: url('sistema.jpg');
+  background-size: 100% 10rem;
+  width: 90%;
+  height: 10rem;
+  border-radius:0 0 30px 30px ;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border-width: 0 6px 6px 6px;
+  border-color: #1818b7;
+  border-style: solid;
+}
+
+header h1{
+  font-family: "Press start 2p", sans serif;
+  font-size: 25px;
+  color: white;
+  text-shadow: 0 0 5px white,  0 0 10px white;
+}
+
+header p{
+  text-align: center;
+  font-family: "Pixelify sans", sans serify;
+  font-size: 15px;
+  color:white;
+}
+
+.pag{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pag a{
+  text-decoration: none;
+}
+
+nav .open{
+  font-family: "Pixelify sans", sans serif;
+  color: white;
+  padding: 0.6rem;
+  height: max-height;
+  width: max-width;
+  background: linear-gradient(180deg, #fc7ee8, #472889);
+  border-color: #ffc9f6;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px; 
+}
+
+nav .close{
+  font-family: "Pixelify sans", sans serif;
+  color: #ffed8f;
+  padding: 0.6rem;
+  height: max-height;
+  width: max-width;
+  background: linear-gradient(180deg, #1a1055, #743c82);
+  border-color: #050052;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 7px; 
+}
+
+.close:hover{
+  color: white;
+  transition: 0.5s;
+    transform: scale(1.3);
+    background: linear-gradient(180deg, #fc7ee8, #472889);
+  border-color: #ffc9f6;
+}
+
+.confi{
+  margin: 60px 0 60px 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  font-family: sans serif;
+}
+
+.botoes{
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+
+.botoes button{
+  font-size: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.botoes button:hover{
+  transition: 0.5s;
+  transform: scale(1.3) rotate(360deg);
+}
+
+.aumentar{
+  background: linear-gradient(180deg, lightgreen, greenyellow);
+  border: 4px solid #ecffa8;
+}
+
+.diminui{
+  background: linear-gradient(180deg, #ff8c8c, red);
+  border: 4px solid #850101;
+}
+.titulo{
+  font-family: "Press start 2p";
+  color: #ffed8f;
+  padding: 10px;
+}
+main{
+  text-align: left;
+  font-family: sans serif;
+  margin-top: 15px;
+  height: max-height;
+  width: 90%;
+  padding: 30px;
+  background-color: rgba(8, 0, 108, 0.6);
+  border-color: rgba(115, 255, 102, 0.6);
+  border-width: 6px;
+  border-style:solid;
+  border-radius: 15px;
+}
+select{
+  font-family: "Press start 2p";
+  background: linear-gradient(blue, indigo);
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+select:hover{
+  font-family: "Press start 2p";
+  background: linear-gradient(#3956FF,#B094FF);
+  border: 2px solid mediumpurple;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+}
+.botoes1 button{
+  font-family: "Press start 2p";
+  background: linear-gradient(blue, indigo);
+  border: 2px solid mediumpurple;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #ffed8f;
+}
+.botoes1 button:hover{
+  font-family: "Press start 2p";
+  background: linear-gradient(#3956FF,#B094FF);
+  border: 2px solid lavender;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+}
+.botoes2 button{
+  font-family: "Press start 2p";
+  background: linear-gradient(blue, indigo);
+  border: 2px solid mediumpurple;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #ffed8f;
+}
+.botoes2 button:hover{
+  font-family: "Press start 2p";
+  background: linear-gradient(#3956FF,#B094FF);
+  border: 2px solid lavender;
+  padding: 5px 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+}
+footer{
+  padding: 10px;
+  margin-top: 80px;
+  width: 100%;
+  height: 200px;
+  background-color: #690d71;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: white;
+  font-family: sans serify;
+}
+
+.extra{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  font-family: "Pixelify sans";
+}
