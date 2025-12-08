@@ -1,25 +1,37 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const root = document.body; // altera o site todo
     const btnMais = document.getElementById("mais");
     const btnMenos = document.getElementById("menos");
 
-    let tamanho = parseInt(localStorage.getItem("tamanhoFonte")) || 16;
+    let ajuste = parseInt(localStorage.getItem("ajusteFonte")) || 0;
 
-    root.style.fontSize = tamanho + "px";
+    const LIMITE_MAX = 12;
+    const LIMITE_MIN = -8;
+
+    aplicarAjuste(ajuste);
 
     btnMais.addEventListener("click", () => {
-        if (tamanho < 22) {
-            tamanho++;
-            root.style.fontSize = tamanho + "px";
-            localStorage.setItem("tamanhoFonte", tamanho);
+        if (ajuste < LIMITE_MAX) {
+            ajuste += 2;
+            aplicarAjuste(ajuste);
+            localStorage.setItem("ajusteFonte", ajuste);
         }
     });
 
     btnMenos.addEventListener("click", () => {
-        if (tamanho > 8) {
-            tamanho--;
-            root.style.fontSize = tamanho + "px";
-            localStorage.setItem("tamanhoFonte", tamanho);
+        if (ajuste > LIMITE_MIN) {
+            ajuste -= 2;
+            aplicarAjuste(ajuste);
+            localStorage.setItem("ajusteFonte", ajuste);
         }
     });
+
+    function aplicarAjuste(valorAjuste) {
+        document.querySelectorAll("*").forEach(el => {
+            const estilo = window.getComputedStyle(el);
+            const base = parseFloat(estilo.fontSize);
+            if (!isNaN(base)) {
+                el.style.fontSize = (base + valorAjuste) + "px";
+            }
+        });
+    }
 });
