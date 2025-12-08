@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const musica = document.getElementById("musica");
+    const musica = document.getElementById("audioMusica");
     const simb = document.getElementById("simM");
     const naob = document.getElementById("naoM");
 
